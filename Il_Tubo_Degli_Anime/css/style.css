@@ -1,0 +1,146 @@
+.sfondo{
+    background-color: dimgray;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+.sfondo1{
+    background-color: black;
+    
+}
+.tasto{
+    background-color: plum;
+}
+
+.shop-card{
+  width: 50%;
+  height: 50%;
+}
+
+.shop-card:hover .panel {
+  transform: none;
+}
+
+.shop-card:hover .shop-titolo {
+  transform: translate(50%, -110px);
+                    color: black;
+          
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: white;
+}
+
+
+.shop-titolo{
+  z-index: 1000;
+    overflow: hidden;
+  font-size: 30px;
+  font-weight: 500;
+  transition: transform 300ms;
+  text-shadow: 0 0 2rem #1114;
+}
+
+.panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #FFFA;
+  transform: translateX(calc(100% + 1px));
+  transition: transform 300ms;
+  padding: 10px;
+  padding-top: 150px;
+  color: black;
+}
+.contenitore-immagini {
+  position: relative;
+  text-align: center;
+}
+
+.centra-testo {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+.colore-vio{
+    color: plum;
+}
+.shop-card:hover .shop-titolo1 {
+  transform: translate(50%, -70px);
+     font-size: 20px;
+    
+                color: black;
+          
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: white;
+}
+
+.shop-titolo1{
+  z-index: 1000;
+    overflow: hidden;
+  font-size: 30px;
+  font-weight: 500;
+  transition: transform 300ms;
+    text-shadow: 0 0 2rem #1114;}
+        .GFG {
+            color: black;
+          
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+        }
+.immagine{
+  width: 500px;
+        height: 600px;
+}
+.immagine1{
+  width: 490px;
+    height: 500px;}
+.immagine2{
+  width: 490px;
+    height: 480px;}
+.immagine3{
+  width: 490px;
+    height: 470px;}
+.immagine4{
+  width: 600px;
+    height: 800px;}
+.font1{font-family: 'Karantina', cursive;
+font-size: 30px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    color: gainsboro;
+}
+.demon{  background-image: url('../images/demonbg.jpg');
+}
+.death{  background-image: url('../images/OC93SY.jpg');
+}
+.tower{  background-image: url('../images/baam1.jpg'); }
+    .rising{  background-image: url('../images/the-risingbg.jpg'); 
+}
+
+
+#more {display: none;}
+.carosel1{
+    height: 170px;
+}
+.insta{
+  width: 50px;
+    height: 50px;}
+
+nav{
+    z-index: 1001;
+}
+.gif1{  background-image: url('../images/gif1.gif');
+  background-repeat: cover;
+  background-attachment: fixed;}
+
+.font2{font-family: 'Karantina', cursive;
+font-size: 30px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+   
+}
+footer{
+  width: 100%;
+}
